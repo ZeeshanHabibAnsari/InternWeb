@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discovery Land Company</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-home">
+
+  <div id="header"></div>
+
+  <main>
+
+    <!-- ═══ HERO ═══ -->
+    <section class="hero">
+      <div class="hero-bg gradient-hero">
+        <!-- IMAGE: Replace with actual image -->
+        <video class="placeholder-img" autoplay muted loop playsinline poster="assets/images/hero/hero-poster.jpg">
+  <source src="https://discoverylandco.com/images/homepage/hero-home.mp4" type="video/mp4">
+</video>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Discover Your World</h1>
+        <p class="hero-subtitle">Select from locations below or scroll to discover more.</p>
+      </div>
+      <nav class="hero-dock" aria-label="Quick navigation">
+        <a href="communities.html">Our Worlds</a>
+        <a href="real-estate.html">Real Estate</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="communities.html" class="hero-dock-btn">Locations</a>
+      </nav>
+      <span class="hero-scroll-hint">Scroll</span>
+    </section>
+
+    <!-- ═══ OUR WORLDS ═══ -->
+    <section class="section worlds-section" id="our-worlds">
+      <div class="container">
+        <div class="section-header section-header-row reveal">
+          <div>
+            <p class="section-label">Our Worlds</p>
+            <h2 class="section-title">Browse our private residential communities and resorts.</h2>
+          </div>
+          <a href="communities.html" class="link-arrow">View all</a>
+        </div>
+
+        <div class="worlds-filters reveal">
+          <button class="worlds-filter is-active" data-region="all">All Regions</button>
+          <button class="worlds-filter" data-region="caribbean">Central America &amp; Caribbean</button>
+          <button class="worlds-filter" data-region="us">United States</button>
+          <button class="worlds-filter" data-region="europe">Europe &amp; UAE</button>
+        </div>
+
+        <div class="carousel-wrapper reveal">
+          <div class="carousel-track worlds-carousel">
+
+            <article class="world-card carousel-card" data-region="caribbean">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1777382297-ext05_resort-arrival_b5_1.jpg" alt="Moncayo" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Moncayo</h3>
+              <p class="world-card-location">Fajardo, Puerto Rico</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-mountain">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1779435151-territory_lifestyle-3-2.jpg" alt="Territory 1889" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Territory 1889</h3>
+              <p class="world-card-location">Flathead Lake, Montana</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="europe">
+              <div class="world-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020898-discovery-dunes.jpg" alt="Discovery Dunes" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Discovery Dunes</h3>
+              <p class="world-card-location">Dubai South, United Arab Emirates</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="europe">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1777565054-ct_cover.jpg" alt="CostaTerra" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">CostaTerra</h3>
+              <p class="world-card-location">Comporta, Portugal</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="europe">
+              <div class="world-card-image gradient-vineyard">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020830-tenuta-toscana.jpeg" alt="Tenuta Toscana" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Tenuta Toscana</h3>
+              <p class="world-card-location">Tuscany, Italy</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1749834672-binyan_hhc3121_wardvillageblocke_s020_ext_superman_final5000.jpg" alt="Mohala" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Mohala</h3>
+              <p class="world-card-location">Honolulu, Hawai&lsquo;i</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-mountain">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020862-crazy-mountain-ranch.jpg" alt="Crazy Mountain Ranch" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Crazy Mountain Ranch</h3>
+              <p class="world-card-location">Shields Valley, Montana</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="caribbean">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020892-barbuda.jpg" alt="Barbuda" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Barbuda</h3>
+              <p class="world-card-location">Barbuda, West Indies</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="caribbean">
+              <div class="world-card-image gradient-sunset">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020896-eldo.jpg" alt="El Dorado" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">El Dorado</h3>
+              <p class="world-card-location">Los Cabos, Mexico</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="caribbean">
+              <div class="world-card-image gradient-forest">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1779959746-zapotal-thumbnail-copy.jpeg" alt="Zapotal" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Zapotal</h3>
+              <p class="world-card-location">Guanacaste, Costa Rica</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020891-maverick.jpg" alt="Maverick" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Maverick</h3>
+              <p class="world-card-location">Fort Worth, Texas</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-lake">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020899-austin-surf-club.jpg" alt="Austin Surf" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Austin Surf</h3>
+              <p class="world-card-location">Austin, Texas</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020899-atlantic-fields.jpg" alt="Atlantic Fields" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Atlantic Fields</h3>
+              <p class="world-card-location">Hobe Sound, Florida</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020891-the-hills.jpg" alt="The Hills" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">The Hills</h3>
+              <p class="world-card-location">The Hamptons, New York</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-sunset">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020891-naples-beach-club.jpg" alt="Naples Beach Club" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Naples Beach Club</h3>
+              <p class="world-card-location">Naples, Florida</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="europe">
+              <div class="world-card-image gradient-mountain">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020897-taymouth-castle.jpg" alt="Taymouth Castle" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Taymouth Castle</h3>
+              <p class="world-card-location">Perthshire, Scotland</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-mountain">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020898-homewood.jpg" alt="Homewood" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Homewood</h3>
+              <p class="world-card-location">Lake Tahoe, California</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020898-northshore.jpg" alt="North Shore Preserve" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">North Shore Preserve</h3>
+              <p class="world-card-location">Kaua&lsquo;i, Hawai&lsquo;i</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="caribbean">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020894-playa-grande.jpg" alt="Playa Grande" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Playa Grande</h3>
+              <p class="world-card-location">Rio San Juan, Dominican Republic</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-mountain">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020892-yellowstone-club.jpg" alt="Yellowstone Club" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Yellowstone Club</h3>
+              <p class="world-card-location">Big Sky, Montana</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-forest">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1714571124-james-island-copy.jpg" alt="James Island" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">James Island</h3>
+              <p class="world-card-location">British Columbia, Canada</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-vineyard">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020894-troubadour.jpg" alt="Troubadour" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Troubadour</h3>
+              <p class="world-card-location">Nashville, Tennessee</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020892-driftwood.jpg" alt="Driftwood" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Driftwood</h3>
+              <p class="world-card-location">Austin, Texas</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="caribbean">
+              <div class="world-card-image gradient-sunset">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020898-chileno-bay.jpg" alt="Chileno Bay Club" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Chileno Bay Club</h3>
+              <p class="world-card-location">Cabo San Lucas, Mexico</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020896-madison-club.jpg" alt="Madison" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Madison</h3>
+              <p class="world-card-location">La Quinta, California</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020892-summit-club.jpg" alt="Summit" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Summit</h3>
+              <p class="world-card-location">Las Vegas, Nevada</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1776086637-hideaway-clubhouse-picture.jpg" alt="Hideaway" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Hideaway</h3>
+              <p class="world-card-location">La Quinta, California</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020897-estancia-club.jpg" alt="Estancia" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Estancia</h3>
+              <p class="world-card-location">Scottsdale, Arizona</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774024439-mirabel.jpg" alt="Mirabel" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Mirabel</h3>
+              <p class="world-card-location">Scottsdale, Arizona</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-lake">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020898-gozzer-ranch.jpg" alt="Gozzer Ranch" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Gozzer Ranch</h3>
+              <p class="world-card-location">Coeur d&rsquo;Alene, Idaho</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-mountain">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1713536971-community_carousel-iron-horse.jpg" alt="Iron Horse" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Iron Horse</h3>
+              <p class="world-card-location">Whitefish, Montana</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774024439-vaquero.jpg" alt="Vaquero" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Vaquero</h3>
+              <p class="world-card-location">Westlake, Texas</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-forest">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1776081639-cc-0001.jpg" alt="Mountaintop" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Mountaintop</h3>
+              <p class="world-card-location">Cashiers, North Carolina</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="caribbean">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020892-bakers-bay.jpg" alt="Baker's Bay" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Baker&rsquo;s Bay</h3>
+              <p class="world-card-location">Great Guana Cay, Bahamas</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-forest">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020891-silo-ridge.jpg" alt="Silo Ridge" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Silo Ridge</h3>
+              <p class="world-card-location">Amenia, New York</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020894-dune-deck.jpg" alt="Dune Deck" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Dune Deck</h3>
+              <p class="world-card-location">Westhampton Beach, New York</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-vineyard">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1775816965-1714554390-cordevalle2-carousel-copy-copy-2.jpeg" alt="CordeValle" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">CordeValle</h3>
+              <p class="world-card-location">Silicon Valley, California</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020893-kukio.jpg" alt="Kūki'o" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Kūki&lsquo;o</h3>
+              <p class="world-card-location">Kohala, Hawai&lsquo;i</p>
+            </article>
+
+            <article class="world-card carousel-card" data-region="us">
+              <div class="world-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1774020896-makena.jpg" alt="Mākena" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h3 class="world-card-name">Mākena</h3>
+              <p class="world-card-location">Maui, Hawai&lsquo;i</p>
+            </article>
+
+          </div>
+
+          <div class="carousel-controls">
+            <button class="carousel-btn worlds-carousel-prev" aria-label="Previous communities">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <button class="carousel-btn worlds-carousel-next" aria-label="Next communities">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ REAL ESTATE ═══ -->
+    <section class="section real-estate-section" id="real-estate">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Real Estate</p>
+          <h2 class="section-title">Find your bespoke residence in one of our communities.</h2>
+        </div>
+
+        <div class="real-estate-featured reveal">
+          <div class="featured-image gradient-ocean">
+            <!-- IMAGE: Replace with actual image -->
+            <img src="https://www.datocms-assets.com/197197/1778849101-barbuda.jpg?auto=format&fit=max&h=3000&w=2000" alt="Barbuda, West Indies" class="placeholder-img" onerror="this.remove()">
+          </div>
+          <div class="featured-info">
+            <p class="featured-location">Barbuda, West Indies</p>
+            <h3 class="section-title" style="font-size: clamp(1.75rem, 3vw, 2.5rem);">West Beach Homesite #87</h3>
+            <p class="section-subtitle">A stunning oceanfront residence offering unparalleled views and bespoke luxury living in the heart of the Caribbean.</p>
+            <div class="featured-counter">
+              <span class="is-active">01.</span>
+              <span>02.</span>
+              <span>03.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="listings-header reveal">
+          <h3 class="listings-title">Latest listings</h3>
+          <a href="real-estate.html" class="link-arrow">View all</a>
+        </div>
+
+        <div class="carousel-wrapper reveal">
+          <div class="carousel-track listings-carousel">
+
+            <article class="listing-card">
+              <div class="listing-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1780313869-bar2368_sales_images_wb_87_01.jpg?fit=max&h=1000&q=85&w=1000" alt="West Beach Homesite #87" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h4 class="listing-card-title">West Beach Homesite #87</h4>
+              <p class="listing-card-location">Barbuda, Barbuda, West Indies</p>
+              <ul class="listing-card-details">
+                <li>4,870 sq.ft</li>
+                <li>6 beds</li>
+                <li>6.5 baths</li>
+              </ul>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-card-image gradient-sunset">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1737987057-cottage_exterior_beach-kienan-brownrigg.jpg?fit=max&h=1000&q=85&w=1000" alt="Coco Cottage 41" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h4 class="listing-card-title">Coco Cottage 41</h4>
+              <p class="listing-card-location">Barbuda, Barbuda, West Indies</p>
+              <ul class="listing-card-details">
+                <li>3,670 sq.ft</li>
+                <li>4 beds</li>
+                <li>4.5 baths</li>
+              </ul>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-card-image gradient-ocean">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1778849101-barbuda.jpg?auto=format&fit=max&h=200&w=200" alt="South Shore Casita 7a" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h4 class="listing-card-title">South Shore Casita 7a</h4>
+              <p class="listing-card-location">Barbuda, Barbuda, West Indies</p>
+              <ul class="listing-card-details">
+                <li>2,910 sq.ft</li>
+                <li>4 beds</li>
+                <li>4.5 baths</li>
+              </ul>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-card-image gradient-lake">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1777458768-1_dji_20260206091412_0953_d.jpg?fit=max&h=1000&q=85&w=1000" alt="Estate 89" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h4 class="listing-card-title">Estate 89</h4>
+              <p class="listing-card-location">Gozzer Ranch, Harrison, Idaho</p>
+              <ul class="listing-card-details">
+                <li>6,934 sq.ft</li>
+                <li>7 beds</li>
+                <li>8.5 baths</li>
+              </ul>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1743501738-1740043973-binyan_dlc3015_discoverydunes_s660_ext_msmvilla_ext02_final_2k-copy.avif?fit=max&h=1000&q=85&w=1000" alt="Estate Land Plot 95" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h4 class="listing-card-title">Estate Land Plot 95</h4>
+              <p class="listing-card-location">Discovery Dunes, Dubai, United Arab Emirates</p>
+              <ul class="listing-card-details">
+                <li>47,139 sq.ft</li>
+              </ul>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1743501865-1740044079-binyan_dlc3015_discoverydunes_s060_ext_pavilionfront_final_2k-copy.avif?fit=max&h=1000&q=85&w=1000" alt="Signature Land Plot 24" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h4 class="listing-card-title">Signature Land Plot 24</h4>
+              <p class="listing-card-location">Discovery Dunes, Dubai, United Arab Emirates</p>
+              <ul class="listing-card-details">
+                <li>28,650 sq.ft</li>
+              </ul>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1743501897-1740044186-untitled-2.avif?fit=max&h=1000&q=85&w=1000" alt="Lifestyle Land Plot 36" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h4 class="listing-card-title">Lifestyle Land Plot 36</h4>
+              <p class="listing-card-location">Discovery Dunes, Dubai, United Arab Emirates</p>
+              <ul class="listing-card-details">
+                <li>23,513 sq.ft</li>
+              </ul>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-card-image gradient-desert">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1777462026-screenshot-2026-04-29-at-12-26-47-copy.jpg?fit=max&h=1000&q=85&w=1000" alt="11118 Canyon Pass Drive" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h4 class="listing-card-title">11118 Canyon Pass Drive</h4>
+              <p class="listing-card-location">Summit, Las Vegas, Nevada</p>
+              <ul class="listing-card-details">
+                <li>1.36 acres</li>
+              </ul>
+            </article>
+
+            <article class="listing-card">
+              <div class="listing-card-image gradient-forest">
+                <!-- IMAGE: Replace with actual image -->
+                <img src="https://www.datocms-assets.com/197197/1739962282-jun-12-2024_phillip-reed_3349_edit_low_res-silo-ridge-field-club-copy.jpeg?fit=max&h=1000&q=85&w=1000" alt="Washington 3.1-4" class="placeholder-img" onerror="this.remove()">
+              </div>
+              <h4 class="listing-card-title">Washington 3.1-4</h4>
+              <p class="listing-card-location">Silo Ridge, Amenia, New York</p>
+              <ul class="listing-card-details">
+                <li>2,348 sq.ft</li>
+                <li>3 beds</li>
+                <li>3.5 baths</li>
+              </ul>
+            </article>
+
+          </div>
+
+          <div class="carousel-controls">
+            <button class="carousel-btn listings-carousel-prev" aria-label="Previous listings">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+            <button class="carousel-btn listings-carousel-next" aria-label="Next listings">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ EXPERIENCES ═══ -->
+    <section class="section experiences-section" id="experiences">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Experiences</p>
+          <h2 class="section-title">Memorable days. Exceptional nights.</h2>
+          <p class="section-subtitle">We believe it&rsquo;s our mission to make every minute matter.</p>
+        </div>
+
+        <div class="experiences-split reveal">
+          <div class="experiences-text">
+            <h3>Adventure, comfort, and community in perfect harmony.</h3>
+            <p>From world-class golf and wellness retreats to culinary journeys and family adventures, every Discovery community offers experiences designed to create lasting memories. Explore the lifestyle that awaits at our private residential clubs around the globe.</p>
+            <a href="experiences.html" class="link-arrow">Explore experiences</a>
+          </div>
+          <div class="experiences-video gradient-forest">
+            <!-- IMAGE: Replace with actual image -->
+            <video class="placeholder-img" autoplay muted loop playsinline poster="assets/images/hero/hero-poster.jpg">
+  <source src="https://stream.mux.com/vwEJscw501u7OVTdaU63acoEQWxZP5Sk9/medium.mp4" type="video/mp4">
+</video>
+            <button class="video-play-btn" aria-label="Play video">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ DISCOVERY FAMILY ═══ -->
+    <section class="section family-section" id="discovery-family">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Discovery Family</p>
+          <h2 class="section-title">For more than three decades, Discovery Land Company has created unique places among nature&rsquo;s exquisite beauty.</h2>
+        </div>
+
+        <div class="family-tabs reveal" role="tablist">
+          <button class="family-tab is-active" role="tab" aria-selected="true" data-tab="inspired">Inspired by the land</button>
+          <button class="family-tab" role="tab" aria-selected="false" data-tab="homes">Luxury bespoke homes</button>
+          <button class="family-tab" role="tab" aria-selected="false" data-tab="experience">Experience beyond compare</button>
+        </div>
+
+        <div class="family-panels reveal">
+          <div class="family-panel is-active" data-panel="inspired" role="tabpanel">
+            <div class="family-panel-image gradient-forest">
+              <!-- IMAGE: Replace with actual image -->
+              <img src="https://www.datocms-assets.com/197197/1779437758-home-3.jpg?auto=format&fit=max&h=3000&w=2000" alt="Inspired by the land" class="placeholder-img" onerror="this.remove()">
+            </div>
+            <div class="family-panel-content">
+              <h3>Inspired by the land</h3>
+              <p>For more than three decades, Discovery has built communities that encourage families to create unforgettable memories in the world&rsquo;s most beautiful settings. Each property incorporates the local architecture, culture, and cuisine to create an authentic and immersive experience for the entire family. Generously welcoming and reassuringly exclusive, this is luxury and modern living at its finest.</p>
+              <a href="about.html" class="link-arrow">About us</a>
+            </div>
+          </div>
+
+          <div class="family-panel" data-panel="homes" role="tabpanel" hidden>
+            <div class="family-panel-image gradient-desert">
+              <!-- IMAGE: Replace with actual image -->
+              <img src="https://www.datocms-assets.com/197197/1779455850-home-image.jpg?auto=format&fit=max&h=3000&w=2000" alt="Luxury bespoke homes" class="placeholder-img" onerror="this.remove()">
+            </div>
+            <div class="family-panel-content">
+              <h3>Luxury bespoke homes</h3>
+              <p>We believe a home should be as unique as your family, suiting a variety of goals and meeting every expectation. Each community offers turn-key residences in addition to custom homes built in collaboration with our expert design team. Distinctive, inviting, and contemporary with meticulous attention to detail, a Discovery home is an investment in your family&rsquo;s future.</p>
+              <a href="about.html" class="link-arrow">About us</a>
+            </div>
+          </div>
+
+          <div class="family-panel" data-panel="experience" role="tabpanel" hidden>
+            <div class="family-panel-image gradient-ocean">
+              <!-- IMAGE: Replace with actual image -->
+              <img src="https://www.datocms-assets.com/197197/1779455861-experiences-image.jpg?auto=format&fit=max&h=3000&w=2000" alt="Experience beyond compare" class="placeholder-img" onerror="this.remove()">
+            </div>
+            <div class="family-panel-content">
+              <h3>Experience beyond compare</h3>
+              <p>Discovery invites you to experience a world where adventure, comfort, and community come together to create a lifestyle unlike any other. Our private residential communities offer families the time and space to make lasting memories while building a legacy that endures for generations. With over 40 exclusive properties worldwide, we are dedicated to elevating the art of living.</p>
+              <a href="about.html" class="link-arrow">About us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ DISCOVER MORE ═══ -->
+    <section class="section discover-more-section" id="discover-more">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-label">Discover more</p>
+          <h2 class="section-title">Explore our world</h2>
+        </div>
+
+        <div class="discover-more-grid reveal">
+          <a href="communities.html" class="discover-card">
+            <div class="discover-card-bg gradient-forest">
+              <!-- IMAGE: Replace with actual image -->
+              <img src="https://discoverylandco.com/images/homepage/home-1.jpg" alt="Our Communities" class="placeholder-img" onerror="this.remove()">
+            </div>
+            <div class="discover-card-overlay"></div>
+            <div class="discover-card-content">
+              <h3>Our Communities</h3>
+              <p>Explore all our communities and resorts</p>
+              <span class="link-arrow">View all</span>
+            </div>
+          </a>
+
+          <a href="real-estate.html" class="discover-card">
+            <div class="discover-card-bg gradient-sunset">
+              <!-- IMAGE: Replace with actual image -->
+              <img src="https://discoverylandco.com/images/real-estate/hero-real-estate.jpg" alt="Real Estate" class="placeholder-img" onerror="this.remove()">
+            </div>
+            <div class="discover-card-overlay"></div>
+            <div class="discover-card-content">
+              <h3>Real Estate</h3>
+              <p>Browse our current listings</p>
+              <span class="link-arrow">View all</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="components.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
