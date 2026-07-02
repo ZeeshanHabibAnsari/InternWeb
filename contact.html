@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Discovery Land Company</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-inner page-contact">
+
+  <div id="header"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="page-hero-label">Contact</p>
+        <h1 class="page-hero-title">Get in touch</h1>
+        <p class="page-hero-subtitle">Reach out to our team to discuss ownership options today.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-layout reveal">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Your full name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="community">Community</label>
+              <select id="community" name="community">
+                <option value="">Select a community</option>
+                <option>Barbuda Ocean Club</option>
+                <option>Yellowstone Club</option>
+                <option>Gozzer Ranch</option>
+                <option>Driftwood Golf &amp; Ranch Club</option>
+                <option>Discovery Dunes</option>
+                <option>CostaTerra</option>
+                <option>Silo Ridge</option>
+                <option>Summit Club</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" required placeholder="Tell us how we can help..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Submit</button>
+          </form>
+
+          <div class="contact-info-block">
+            <h3>Discovery Land Company</h3>
+            <div class="contact-info-item">
+              <h4>Address</h4>
+              <p>7025 E Camelback Rd, Suite 200<br>Scottsdale, AZ 85251<br>United States</p>
+            </div>
+            <div class="contact-info-item">
+              <h4>Phone</h4>
+              <a href="tel:+14806245200">(480) 624-5200</a>
+            </div>
+            <div class="contact-info-item">
+              <h4>Email</h4>
+              <a href="mailto:mail@discoverylandco.com">mail@discoverylandco.com</a>
+            </div>
+            <div class="contact-map gradient-mountain">
+              <!-- IMAGE: Replace with actual map or image -->
+              <img src="https://www.datocms-assets.com/197197/1774942919-hero-contact.jpg?auto=format&fit=max&h=3000&w=2000" alt="Map placeholder" class="placeholder-img" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.3">
+              <span>Map Placeholder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  <script src="components.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
